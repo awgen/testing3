@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+}
+header {
+    display: flex;
+}
+.bin-logo {
+    margin-top: -15px;
+    height: 90px;
+    width: 135px;
+    cursor: pointer;
+}
+
+.list ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-size: 12px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+}
+.list ul li a:hover {
+    color: rgb(252, 208, 113);
+}
+.cred ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.cred ul li a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-size: 12px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+}
+.cred ul li a:hover {
+    color: rgb(252, 208, 113);
+}
+.tablet-cred ul{
+    display: none;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.tablet-cred ul li a{
+    text-decoration: none;
+    color: rgb(80, 80, 80);
+    font-size: 12px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+}
+.tablet-cred ul li a:hover {
+    color: rgb(252, 208, 113);
+}
+.reg{
+    margin-top: -8px;
+    background-color: rgb(255, 244, 223);
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+    font-family: sans-serif;
+    letter-spacing: .8px;
+    padding: 9px;
+}
+.reg p{
+    text-align: center;
+}
+.tagline{
+    margin: 88px;
+}
+.tagline h1{
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: rgb(40, 40, 40);
+    letter-spacing: .8px;
+}
+.tagline h3{
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.tagline h3 a{
+   text-decoration: none;
+   color: rgb(40, 40, 40);
+}
+.aro {
+    height: 13px;
+    margin-left: 5px;
+}
+.btn{
+   
+}
+.btn1{
+    margin-top: 30px;
+    padding: 15px 75px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 204, 94);
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(248, 203, 105);
+}
+.btn .con{
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: rgb(184, 184, 184);
+    margin-left: 11%;
+}
+.btn2 {
+    margin-top: 20px;
+}
+.btn3 {
+    padding: 13px 50px;
+    margin-right: 25px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.btn4 {
+    padding: 13px 50px;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.apol {
+    height: 15px;
+    margin-right: 8px;
+}
+.google {
+    height: 15px;
+    margin-right: 3px;
+}
+.vol {
+    margin: 130px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+}
+.vol h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.first p{
+    color: rgb(141, 141, 141);
+    width: 90%;
+    font-size: 14px;
+}
+.second p{
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+}
+.third p{
+    color: rgb(141, 141, 141);
+
+    font-size: 14px;
+}
+.fourth p{
+    color: rgb(141, 141, 141);
+    font-size: 14px;
+}
+
+.ronaldo{
+    background-color: white;
+    display: flex;
+ 
+}
+.ronaldoo {
+    height: 200px;
+    padding: 30px 90px;
+    border-radius: 23%;
+   
+}
+.text5 {
+    margin: 50px;
+    font-family: sans-serif;
+}
+.text5 h2{
+    padding: 20px 5px;
+    font-size: 27px;
+}
+.text5 p{
+    padding: 5px 5px;
+    font-size: 15px;
+    color: rgb(141, 141, 141);
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.learn{
+    margin-top: 15px;
+    padding: 15px 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 204, 94);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.learn:hover{
+    background-color: rgb(248, 203, 105);
+}
+.start{
+    margin-top: 100px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.start h1{
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.startt{
+    margin-top: 20px;
+    padding: 15px 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: rgb(255, 204, 94);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.startt:hover{
+    background-color: rgb(248, 203, 105);
+}
+.footer{
+    margin-top: 100px;
+    font-family: sans-serif;
+    background-color: white;
+}
+.foot{
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foot h4{
+    font-weight: lighter;
+    margin-bottom: 11px;
+}
+.foot p{
+    font-size: 12px;
+    line-height: 25px;
+    color: rgb(141, 141, 141);
+}
+.com {
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.com h4{
+    font-weight: lighter;
+    margin-right: 20px;
+}
+.com img{
+    margin-left: 8px;
+    height: 20px;
+}
+.line{
+    margin: 20px 150px 50px;
+    border: 0.5px solid rgb(224, 224, 224);
+}
+hr{
+    border: 0.5px solid rgb(224, 224, 224);
+}
+.end{
+    text-align: center;
+}
+.end p{
+    padding: 5px 20px 40px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(141, 141, 141);
+}
+@media only screen and (max-width: 1200px){
+    .cred ul li a{
+        display: none;
+    }
+    .tablet-cred ul{    
+        display: flex;
+    }
+}
+@media only screen and (max-width: 1005px){
+    .tablet-cred ul{
+        display: none;
+    }
+    .list ul li a{
+        text-decoration: none;
+        color: rgb(80, 80, 80);
+        font-size: 14px;
+        padding: 5px 10px;
+        font-family: sans-serif;
+        letter-spacing: .8px;
+    }
+    .list ul li a:hover {
+        color: rgb(252, 208, 113);
+    }
+}
+@media only screen and (max-width: 816px){
+    .tagline h1{
+        color: blue;
+    }
+    .tagline h3{
+        margin-top: 30px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    .tagline h3 a{
+       text-decoration: none;
+       color: rgb(40, 40, 40);
+    }
+}
+
